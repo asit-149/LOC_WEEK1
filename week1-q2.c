@@ -5,9 +5,9 @@ int main()
     printf("Enter any two number:");
     scanf("%d%d",&a,&b);
     if(a>b)
-    printf("a is greater");
+    printf("%d is greater",a);
     else
-    printf("b is greater");
+    printf("%d is greater",b);
     return 0;
     
     
